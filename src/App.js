@@ -28,14 +28,14 @@ function App() {
     if(Mode ==="light"){
       setMode("dark");
       document.body.style.backgroundColor = '#2b3136';
-      showAlert("Dark mode enebled" , "success");
+      showAlert("Dark mode enabled" , "success");
       //dynamically changes the title
       document.title = 'TextUtils - Dark';
     }
     else{
       setMode('light') ;
       document.body.style.backgroundColor = 'white';
-      showAlert("Light mode enebled" , "success");
+      showAlert("Light mode enabled" , "success");
       document.title = 'TextUtils - Light';
     }
   }
